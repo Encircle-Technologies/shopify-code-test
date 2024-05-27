@@ -1,0 +1,34 @@
+{
+    "sections": {
+      "image-with-text-section": {
+        "name": "Image with Text Section",
+        "settings": {
+          "main_image": {
+            "label": "Main Image",
+            "info": "Image size 1200x1200 recommended"
+          },
+          "badge_image": {
+            "label": "Badge Image"
+          },
+          "doctor_name": {
+            "label": "Doctor Name"
+          },
+          "heading": {
+            "label": "Heading"
+          },
+          "content": {
+            "label": "Content"
+          },
+          "button_text": {
+            "label": "Button Text"
+          },
+          "button_url": {
+            "label": "Button URL"
+          }
+        },
+        "presets": {
+          "name": "Image with Text"
+        }
+      }
+    }
+  }

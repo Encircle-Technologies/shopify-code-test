@@ -1,0 +1,94 @@
+.image-with-text-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image-with-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items:center;
+  }
+  
+  .image-with-text-image {
+    position: relative;
+    max-width: 50%;
+  }
+  
+  .image-with-text-image img {
+    width: 100%;
+    height: auto;
+    display:block;
+  }
+  
+  .badge-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .badge-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-with-text-content {
+    max-width: 50%;
+    padding: 20px;
+  }
+  
+  .image-with-text-content h3 {
+    margin: 0 0 15px;
+    font-size:18px;
+    font-weight:bold;
+    color:orange;
+  }
+.image-with-text-content h2 {
+   margin: 0 0 15px;
+    font-size:28px;
+    font-weight:bold;
+    color:#000;
+}
+  
+  .image-with-text-content p {
+    margin: 15px 0;
+    font-size:16px;
+    line-height:26px;
+    font-weight:normal;
+    color:#000;
+  }
+  
+  .image-with-text-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size:16px;
+    font-weight:600;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    max-width:200px;
+    width:100%;
+    text-align: center;
+    transition:all 0.3s ease-in-out;
+  }
+.image-with-text-content .btn:hover {
+  background-color:orange;
+}
+
+@media screen and (max-width:767px) {
+
+  .image-with-text-container {
+    flex-direction: column;
+  }
+  .image-with-text-image, .image-with-text-content {
+    max-width:100%;
+  }
+  .image-with-text-content {
+    text-align: center;
+  }
+}
